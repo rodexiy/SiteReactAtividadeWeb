@@ -1,0 +1,52 @@
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.logo {
+    margin-left: 54px;
+    width: 50px;
+    height: 32px;
+}
+
+.divLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+}
+
+.content p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logoTexto {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    gap: 46.7px;
+    margin-right: 100px;
+}

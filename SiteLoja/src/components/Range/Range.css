@@ -1,0 +1,39 @@
+.texto_cima {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.titulo {
+    color: var(--font-color, #333);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.descricao {
+    color: var(--font-color-1, #666);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
