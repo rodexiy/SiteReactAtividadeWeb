@@ -1,0 +1,36 @@
+
+.WC_main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.WC_image {
+    width: 60px;
+height: 60px;
+}
+
+.WC_textArea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.WC_title {
+    color: #242424;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 37.5px */
+}
+
+.WC_description {
+    color: var(--color-gray-3, #898989);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 30px */
+}

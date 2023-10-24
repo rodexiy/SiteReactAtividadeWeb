@@ -1,0 +1,59 @@
+.product {
+    width: 285px;
+    height: 446px;
+}
+
+.product_image {
+    width: 285px;
+    height: 301px;
+}
+
+.product_recuo{
+    margin-left: 16px;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.product_title{
+    color: var(--color-gray-1, #3A3A3A);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 28.8px */
+}
+
+.product_description {
+    color: var(--color-gray-3, #898989);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+
+.product_pricediv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.product_pricediv_currentprice {
+    color: var(--color-gray-1, #3A3A3A);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+.product_pricediv_oldprice {
+    color: var(--color-gray-4, #B0B0B0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-decoration: line-through;
+}
