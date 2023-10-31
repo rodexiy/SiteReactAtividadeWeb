@@ -1,6 +1,7 @@
 .product {
     width: 285px;
     height: 446px;
+    background: var(--color-light-bg, #F4F5F7);
 }
 
 .product_image {

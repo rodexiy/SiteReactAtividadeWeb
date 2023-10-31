@@ -24,14 +24,15 @@
 }
 
 .loadMore_button{
+    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 245px;
     height: 48px;
     border: 1px solid var(--Primary, #B88E2F);
-background: #FFF;
-margin-bottom: 69px;
+    background: #FFF;
+    margin-bottom: 69px;
 }
 
 .loadMore_button p{
